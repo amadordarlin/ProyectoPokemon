@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/viewHolderItem1"
+    android:id="@+id/pokeListHolder">
+    <ImageView
+        style="@style/imageViewItem1"
+        android:id="@+id/imagePoki"
+        android:contentDescription="@string/imagePoki" />
+    <TextView
+        style="@style/textVIewItem1"
+        android:id="@+id/namePoki"/>
+</LinearLayout>

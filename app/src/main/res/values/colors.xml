@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- General Colors -->
+    <color name="statusBar">#000000</color>
+    <color name="background">#252525</color>
+    <color name="text">#ECEEF0</color>
+    <color name="textButton">#EC517D</color>
+</resources>

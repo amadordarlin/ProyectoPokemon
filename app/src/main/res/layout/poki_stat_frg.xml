@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fragments"
+    android:id="@+id/pokeStatFrg">
+
+    <ImageView
+        style="@style/imageViewItem1"
+        android:id="@+id/imagePokiStat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/imagePoki">
+    </ImageView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        style="@style/recyclerView"
+        android:id="@+id/recyclerViewStat"
+        android:layout_toLeftOf="@id/imagePokiStat"
+        android:layout_marginTop="10dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

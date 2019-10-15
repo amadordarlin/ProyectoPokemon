@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fragments"
+    android:id="@+id/pokeListFrg">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewList"
+        style="@style/recyclerView"></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/checkboxLayout"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <CheckBox
+            android:id="@+id/chBxHP"
+            style="@style/checkBox"
+            android:text="@string/ChBxHP"
+            android:visibility="invisible" />
+
+        <CheckBox
+            android:id="@+id/chBxDefense"
+            style="@style/checkBox"
+            android:text="Defensa"
+            android:textColor="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/chBxAttack"
+            style="@style/checkBox"
+            android:layout_width="wrap_content"
+            android:text="Ataque"
+            android:textColor="#03A9F4" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/content_layout"
+        style="@style/contentLayout">
+    </include>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/button"
+        android:text="Ver Pokemon"
+        android:textColor="#2196F3" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="appName">pokeapi_client</string>
+    <string name="button">Get Pokemons!</string>
+    <string name="imagePoki">imagePoki</string>
+    <string name="ChBxDefense">Defense</string>
+    <string name="ChBxAttack">Attack</string>
+    <string name="ChBxHP">HP</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- main_layout settings -->
+    <style name="appTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- content_layout settings -->
+    <style name="contentLayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- fragments settings -->
+    <style name="fragments">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- recylerView settings -->
+    <style name="recyclerView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_above">@id/checkboxLayout</item>
+    </style>
+
+    <!-- view_holder settings -->
+    <style name="viewHolderItem1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- text_view1 settings -->
+    <style name="textVIewItem1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_below">@id/imagePoki</item>
+        <item name="android:text">@string/appName</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- text_view2 settings -->
+    <style name="textViewItem2">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">@string/appName</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- image_view settings -->
+    <style name="imageViewItem1">
+        <item name="android:layout_height">86dp</item>
+        <item name="android:layout_width">86dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/ic_launcher_round</item>
+        <item name="android:contentDescription">@string/imagePoki</item>
+    </style>
+
+    <!-- button settings -->
+    <style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">@string/button</item>
+        <item name="android:textColor">@color/textButton</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+    <!-- button settings -->
+    <style name="checkBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">@string/button</item>
+        <item name="android:textColor">@color/textButton</item>
+    </style>
+
+    <!-- progressBar settings -->
+    <style name="progressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:indeterminateTint">@color/text</item>
+        <item name="android:indeterminateTintMode">src_atop</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">100dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+</resources>
+
