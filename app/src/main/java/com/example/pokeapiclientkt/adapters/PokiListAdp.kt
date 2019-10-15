@@ -1,5 +1,5 @@
 package com.example.pokeapiclientkt.adapters
-
+//proyecto
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
